@@ -31,11 +31,11 @@ from collective.recaptcha import RecaptchaMessageFactory as _
 class IRecaptchaSettings(Interface):
 
     public_key = schema.TextLine(
-        title = _(u'Public Key')
+        title = _(u'Site Key')
         )
 
     private_key = schema.TextLine(
-        title = _(u'Private Key')
+        title = _(u'Secret Key')
         )
 
 
